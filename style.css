@@ -1,0 +1,40 @@
+@charset"utf-8";
+html,body {
+    height: 100%; 
+    margin : 0;
+        font-family: trebuchet  sans MS, sans-serif;
+font-size :18px}
+* {box-sizing:border-box;}
+h1, h2, h3, h4, h5, h6 { 
+font-family: "Roboto",sans-serif;
+}
+h1,h2 {color:white;}
+img {max-width:100%; }
+#top { height: 100vh; 
+    /* 100% de la hauteur de l'écran(viewport 
+    height )*/
+   background: url(https://hotprint.ua/storage/images/services.jpg)no-repeat center center;
+background-size: cover; 
+padding: 30px 15px; 
+    text-align:center; }
+#menu-principal ul {
+    margin:0; 
+    padding-left:0;
+    display: flex; 
+justify-content: center;
+list-style:none;}
+#menu-principal a, 
+#menu-principal a:visited   {
+        font-family : "Roboto", sans-serif;
+        font-size:1.5rem;
+        text-transform: uppercase; 
+        color:white;
+        text-decoration:none; 
+        margin : 0 15px; 
+    }
+    #portfolio {
+        display :flex; 
+    }
+    .projet {flex-basis: 25%;
+    text-align:center;  
+    padding : 15px; }
